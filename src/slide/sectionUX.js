@@ -18,7 +18,7 @@ export default (
       </ol>
     </Notes>
     <Heading size={1} caps lineHeight={1} fit textColor="secondary">
-      TECH
+      UX/UI
     </Heading>
   </Slide>
 );

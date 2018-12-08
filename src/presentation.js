@@ -1,5 +1,5 @@
 import React from "react";
-import { Deck, Heading, ListItem, List, Slide, Text } from "spectacle";
+import { Deck } from "spectacle";
 
 import createTheme from "spectacle/lib/themes/default";
 import Intro from "./slide/intro";
@@ -18,14 +18,17 @@ import useWhatYouKnow from "./slide/useWhatYouKnow";
 import goodPractices from "./slide/goodPractices";
 import useServices from "./slide/useServices";
 import favoriteTech from "./slide/favoriteTech";
-import sectionProduct from "./slide/sectionProduct";
 import goingFromCanToShould from "./slide/goingFromCanToShould";
 import specifications from "./slide/specifications";
 import sectionUX from "./slide/sectionUX";
-import uxTips from "./slide/uxTips";
 import uiTips from "./slide/uiTips";
 import sectionSoftSkills from "./slide/sectionSoftSkills";
 import figmaDemo from "./slide/figmaDemo";
+import doNotLoseTuch from "./slide/doNotLoseTuch";
+import whyMe from "./slide/whyMe";
+import noUseCase from "./slide/noUseCase";
+import mentorship from "./slide/mentorship";
+import yourTouch from "./slide/yourTouch";
 
 require("normalize.css");
 
@@ -57,35 +60,24 @@ export default class Presentation extends React.Component {
         {simpleCode}
         {useWhatYouKnow}
         {goodPractices}
+        {doNotLoseTuch}
         {useServices}
         {favoriteTech}
-        {/* PRODUCT */}
-        {sectionProduct}
-        {goingFromCanToShould}
-        {specifications}
         {/* UI/UX */}
         {sectionUX}
+        {specifications}
+        {whyMe}
+        {noUseCase}
         {DesignAndProgramming}
         {DesignSystems}
         {WhyFigma}
         {figmaDemo}
-        {uxTips}
         {uiTips}
         {/* Soft skills */}
         {sectionSoftSkills}
-        <Slide
-          transition={["fade"]}
-          bgColor="primary"
-          progressColor="secondary"
-          controlColor="secondary"
-        >
-          <Heading size={6} textColor="tertiary" caps fit>
-            DEMO TIME (again)
-          </Heading>
-          <Text size={6} textColor="quartenary" margin="20px 0" bold>
-            Teamstarter design system
-          </Text>
-        </Slide>
+        {goingFromCanToShould}
+        {mentorship}
+        {yourTouch}
         {Questions}
       </Deck>
     );

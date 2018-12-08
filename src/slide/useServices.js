@@ -25,5 +25,6 @@ export default (
         <ListItem>Intercom -> User support</ListItem>
       </List>
     </Text>
+    <Text>Check the pricings!</Text>
   </Slide>
 );

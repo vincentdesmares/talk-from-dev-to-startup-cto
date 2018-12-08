@@ -16,8 +16,8 @@ export default (
         <li>Second note</li>
       </ol>
     </Notes>
-    <Heading size={1} caps lineHeight={1} textColor="secondary">
-      LEARN TO MAKE (GOOD) SPECIFICATIONS
+    <Heading size={2} caps lineHeight={1} textColor="secondary">
+      LEARN TO WRITE SPECIFICATIONS
     </Heading>
     <Text margin="10px 0 0" textColor="secondary" size={0.5}>
       <List>
@@ -27,7 +27,7 @@ export default (
         <ListItem>Write a doc and remove everything you can.</ListItem>
       </List>
     </Text>
-    <Text>
+    <Text textSize={25} italic>
       "perfection is attained not when there is nothing more to add, but when
       there is nothing more to remove" Antoine de Saint-exupery
     </Text>
