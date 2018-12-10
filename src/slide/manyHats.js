@@ -23,10 +23,10 @@ export default (
     <Text textColor="pink" style={{ marginTop: 30 }}>
       CODING, INFRASTRUCTURE MAINTENANCE, UI, UX, SPECIFICATIONS, TRANSLATIONS,
       SOCIAL NETWORK MANAGEMENT, BILLING, PROJECT MANAGEMENT, HIRING,
-      COMPETITIVE INTELLIGENCE, MARKET RESEARCH, SALES
+      <small>COMPETITIVE INTELLIGENCE, MARKET RESEARCH, SALES...</small>
     </Text>
     <Text textColor="blue" style={{ marginTop: 30 }}>
-      That's a lot of hat
+      That's a lot of hat!
     </Text>
     <Text
       textSize={10}

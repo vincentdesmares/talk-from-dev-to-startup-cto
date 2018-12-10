@@ -13,17 +13,16 @@ export default (
     </Heading>
     <Text margin="10px 0 0" textColor="black" size={0.5}>
       <List>
-        <ListItem>Ask yourself:</ListItem>
         <ListItem>Who is this for? (persona/users)</ListItem>
         <ListItem>What is this for? (use cases)</ListItem>
-        <ListItem>Remove everything you can.</ListItem>
-        <ListItem>Postpone everything you can.</ListItem>
+        <ListItem>Remove everything you can</ListItem>
+        <ListItem>Postpone everything you can</ListItem>
         <ListItem>Seek feedback</ListItem>
       </List>
     </Text>
     <Text textSize={25} italic>
       "perfection is attained not when there is nothing more to add, but when
-      there is nothing more to remove"{" "}
+      there is nothing more to remove."{" "}
       <b>
         Antoine de Saint-exupery{" "}
         <span role="img" aria-label="plane">

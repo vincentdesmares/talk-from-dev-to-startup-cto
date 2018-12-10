@@ -18,14 +18,14 @@ export default (
       <p>To stay productive and on schedule</p>
       <p>Link: Simple, mastered and ... clean!</p>
     </Notes>
-    <Heading size={1} caps lineHeight={1} textColor="white">
+    <Heading caps lineHeight={1} textColor="white" fit>
       USE TECH YOU KNOW
     </Heading>
-    <Text textColor="black" fit bold>
-      Be tech-pragmatic
+    <Text textColor="black" bold style={{ marginTop: 50 }}>
+      Be tech-pragmatic.
     </Text>
     <Text textColor="white" style={{ marginTop: 50 }}>
-      With a touch of explorations
+      With a touch of explorations!
     </Text>
   </Slide>
 );

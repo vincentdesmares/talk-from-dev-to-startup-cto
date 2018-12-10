@@ -17,7 +17,7 @@ export default (
       </ol>
     </Notes>
     <Heading size={2} caps lineHeight={1} textColor="pink">
-      Is there an use case for that?
+      Is there a use case for that?
     </Heading>
     <Text style={{ marginTop: 30 }}>No?</Text>
     <Text fit bold>

@@ -16,13 +16,13 @@ export default (
       <p>can be painting, writing, sport, music…</p>
     </Notes>
     <Heading size={6} textColor="pink" caps fit>
-      Find your “touch”
+      Find what drives you
     </Heading>
     <List>
       <ListItem>Competition is numerous</ListItem>
       <ListItem>There is always better than you at X</ListItem>
       <ListItem>But few are strongly driven</ListItem>
-      <ListItem>Your "thing" will keep you going</ListItem>
+      <ListItem>Your passion will keep you going</ListItem>
     </List>
   </Slide>
 );

@@ -10,6 +10,8 @@ export default (
   >
     <Notes>
       <p>to be the most productive and agile possible</p>
+      <p>The glue for the services.</p>
+      <p>Good references</p>
     </Notes>
     <Heading size={1} caps lineHeight={1} textColor="white">
       My favorite TECH picks
@@ -29,7 +31,7 @@ export default (
           </span>
         </ListItem>
         <ListItem>
-          <b>SQLite</b> : no other dep. than node.js
+          <b>SQLite</b>: no other dep. than node.js
         </ListItem>
         <ListItem>
           <b>PM2</b> smart monitoring

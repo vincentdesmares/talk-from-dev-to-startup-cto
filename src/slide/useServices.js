@@ -21,7 +21,7 @@ export default (
       </p>
     </Notes>
     <Heading size={1} caps lineHeight={1} textColor="pink">
-      USE SERVICES
+      USE SaaS
     </Heading>
     <Text margin="10px 0 0" textColor="black" size={0.5}>
       <List>
@@ -37,7 +37,7 @@ export default (
         <ListItem>Intercom -> User support</ListItem>
       </List>
     </Text>
-    <Text bold>Your time is money!</Text>
+    <Text bold>Your time is money! Weight time/price.</Text>
     <Text style={{ marginTop: 50 }}>Check the pricings!</Text>
   </Slide>
 );

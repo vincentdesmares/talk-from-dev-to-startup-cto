@@ -30,7 +30,7 @@ export default (
     </Heading>
     <Text margin="10px 0 0" textColor="black" size={0.5}>
       <List>
-        <ListItem>Magic code = impossible debug</ListItem>
+        <ListItem>Magic code is impossible debug</ListItem>
         <ListItem>You are the only reference</ListItem>
         <ListItem>You will not be able to breakdown work</ListItem>
         <ListItem>Be able to answer anything</ListItem>

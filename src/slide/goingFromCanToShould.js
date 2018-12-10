@@ -9,7 +9,7 @@ export default (
     controlColor="black"
   >
     <Notes>
-      <p>lead dev answers to feature possible or not.</p>
+      <p>Lead Dev answers to feature possible or not.</p>
       <p> Now it's your duty to advice to do it entirely.</p>
       <p>
         Too many times I just did as "instructed" -> came back to a feature ->
@@ -39,9 +39,9 @@ export default (
     </Text>
     <Text margin="10px 0 0" textColor="black" size={0.5}>
       <List>
+        <ListItem>Weight Business and Tech equaly</ListItem>
         <ListItem>Be an ally, not a door guard</ListItem>
         <ListItem>Inspire, suggest, extend, educate</ListItem>
-        <ListItem>Weight Business and Tech equaly</ListItem>
         <ListItem>Find the 80/20 -> Provide alternatives</ListItem>
       </List>
     </Text>

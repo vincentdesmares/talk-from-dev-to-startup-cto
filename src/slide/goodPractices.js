@@ -30,8 +30,8 @@ export default (
         <ListItem>Testing</ListItem>
         <ListItem>CI</ListItem>
         <ListItem>Comments</ListItem>
-        <ListItem>Will be harder later.</ListItem>
-        <ListItem>Don't capitalize on the code.</ListItem>
+        <ListItem>Will be harder later</ListItem>
+        <ListItem>Don't capitalize on the code</ListItem>
       </List>
     </Text>
     <Text bold fit>

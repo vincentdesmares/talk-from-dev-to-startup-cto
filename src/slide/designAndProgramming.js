@@ -19,7 +19,7 @@ export default (
         <ListItem>Iterate fast</ListItem>
         <ListItem>Do not repeat yourself</ListItem>
         <ListItem>Trends are passing fast</ListItem>
-        <ListItem>Few can only do one of them</ListItem>
+        <ListItem>You need to have skills in both</ListItem>
         <ListItem>Teams change fast</ListItem>
       </List>
     </Text>

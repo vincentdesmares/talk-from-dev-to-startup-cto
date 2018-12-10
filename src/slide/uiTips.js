@@ -22,7 +22,7 @@ export default (
       <ListItem>Do 3 simple versions</ListItem>
       <ListItem>Challenge with others, pick one, iterate</ListItem>
       <ListItem>
-        Requires <b>a lof of exploration</b>. Try try try.
+        Requires <b>a lof of exploration</b>
       </ListItem>
       <ListItem>Assign meaning to your colors and fonts</ListItem>
       <ListItem>Be consistent</ListItem>

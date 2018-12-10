@@ -12,8 +12,8 @@ export default (
       Design system?
     </Heading>
     <Text margin="10px 0 0" textColor="black">
-      A design system is a series of components that can be reused in different
-      combinations. Design systems allow you to manage design at scale
+      A design system is a serie of components that can be reused in different
+      combinations. Design systems allow you to manage design at scale.
     </Text>
     <Text margin="50px 0 0" textColor="blue" fit bold>
       https://forumone.com/ideas/what-is-design-system

@@ -26,7 +26,7 @@ export default (
       What's teamstarter?
     </Heading>
     <Text textColor="black" fit>
-      It's like kickstarter in your organization
+      It's like kickstarter in your organization.
     </Text>
     <Text textColor="white">Your budget, your project, your culture.</Text>
     <Text textColor="white" bold style={{ marginTop: 40 }}>
