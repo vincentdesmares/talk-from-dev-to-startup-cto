@@ -4,14 +4,14 @@ import { Heading, Slide, Text, List, ListItem } from "spectacle";
 export default (
   <Slide
     transition={["slide"]}
-    bgColor="primary"
-    progressColor="secondary"
-    controlColor="secondary"
+    bgColor="white"
+    progressColor="black"
+    controlColor="black"
   >
-    <Heading size={3} textColor="secondary" caps>
+    <Heading size={3} textColor="black" caps>
       Design & Programming in 2018
     </Heading>
-    <Text margin="10px 0 0" textColor="tertiary" size={0.5}>
+    <Text margin="10px 0 0" textColor="pink" size={0.5}>
       <List>
         <ListItem>Iterate fast</ListItem>
         <ListItem>Do not repeat yourself</ListItem>

@@ -4,24 +4,29 @@ import { Heading, Slide, Text, Notes } from "spectacle";
 export default (
   <Slide
     transition={["zoom"]}
-    bgColor="tertiary"
-    progressColor="secondary"
-    controlColor="secondary"
+    bgColor="pink"
+    progressColor="black"
+    controlColor="black"
   >
     <Notes>
-      <h4>Slide notes</h4>
-      <p>test</p>
-      <ol>
-        <li>First note</li>
-        <li>Second note</li>
-      </ol>
+      <p>Organization allow monthly funds</p>
+      <p>Each person received it continuously</p>
+      <p>Anyone can create a project</p>
+      <p>Anyone can back a project</p>
+      <p>
+        Arcade box / Christmas decorations / Raclette party / Board games /
+        Conferences
+      </p>
     </Notes>
-    <Heading size={1} caps lineHeight={1} textColor="primary">
+    <Heading size={1} caps lineHeight={1} textColor="white">
       What's teamstarter?
     </Heading>
-    <Text textColor="secondary" fit>
+    <Text textColor="black" fit>
       It's like kickstarter in your organization
     </Text>
-    <Text textColor="quartenary">Your budget, your project, your culture.</Text>
+    <Text textColor="white">Your budget, your project, your culture.</Text>
+    <Text textColor="white" bold style={{ marginTop: 40 }}>
+      And ... a quick demo 🧙
+    </Text>
   </Slide>
 );

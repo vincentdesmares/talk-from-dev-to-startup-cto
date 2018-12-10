@@ -61,9 +61,9 @@ const fireworksStyle = `.pyro >.before,
 export default (
   <Slide
     transition={["fade"]}
-    bgColor="primary"
-    progressColor="secondary"
-    controlColor="secondary"
+    bgColor="white"
+    progressColor="black"
+    controlColor="black"
   >
     <style>{fireworksStyle}</style>
 
@@ -71,10 +71,10 @@ export default (
       <div className="before" />
       <div className="after" />
     </div>
-    <Heading size={2} textColor="tertiary" caps>
+    <Heading size={2} textColor="pink" caps>
       We're done!
     </Heading>
-    <Text bold textColor="quartenary">
+    <Text bold textColor="blue">
       Questions?
     </Text>
     <Text textSize={30} style={{ marginTop: 50 }}>

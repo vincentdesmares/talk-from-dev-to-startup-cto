@@ -4,22 +4,18 @@ import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
 export default (
   <Slide
     transition={["slide"]}
-    bgColor="primary"
-    progressColor="secondary"
-    controlColor="secondary"
+    bgColor="white"
+    progressColor="black"
+    controlColor="black"
   >
     <Notes>
-      <h4>Slide notes</h4>
-      <p>test</p>
-      <ol>
-        <li>First note</li>
-        <li>Second note</li>
-      </ol>
+      <p>And because it will prepare you to your future job.</p>
+      <p>No other person to do it.</p>
     </Notes>
-    <Heading size={2} caps lineHeight={1} textColor="secondary">
+    <Heading size={2} caps lineHeight={1} textColor="blue">
       Why me?
     </Heading>
-    <Text>
+    <Text bold style={{ marginTop: 50, marginBottom: 50 }}>
       BECAUSE YOU'RE MOST LIKELY THE ONE WITH THE BEST VIEW OF WHAT THE PRODUCT
       IS IN REALITY.
     </Text>

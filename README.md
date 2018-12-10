@@ -10,7 +10,9 @@ The slides available [online](https://vincentdesmares.github.io/from-dev-to-star
 
 ## References
 
+- [Teamstarter](https://teamstarter.co)
 - [Figma](https://www.figma.com)
+- [Matters](https://matters.tech)
 
 Articles about the life of a CTO:
 

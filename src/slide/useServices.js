@@ -4,19 +4,22 @@ import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
 export default (
   <Slide
     transition={["slide"]}
-    bgColor="primary"
-    progressColor="secondary"
-    controlColor="secondary"
+    bgColor="white"
+    progressColor="black"
+    controlColor="black"
   >
     <Notes>
-      <h4>Slide notes</h4>
+      <p>One of my sin in programming is "reinvent the wheel".</p>
       <p>SAAS models are now aimed at making startup succeed.</p>
-      <p>Check the pricing.</p>
+      <p>
+        Be careful with the pricing, some services can be nice, other can be a
+        burden : ex Analytics dashboards (ModeAnalytics)
+      </p>
     </Notes>
-    <Heading size={1} caps lineHeight={1} textColor="secondary">
+    <Heading size={1} caps lineHeight={1} textColor="black">
       USE SERVICES
     </Heading>
-    <Text margin="10px 0 0" textColor="secondary" size={0.5}>
+    <Text margin="10px 0 0" textColor="black" size={0.5}>
       <List>
         <ListItem>Auth0 -> Authentication</ListItem>
         <ListItem>AWS -> flexible infrastructure</ListItem>
@@ -25,6 +28,7 @@ export default (
         <ListItem>Intercom -> User support</ListItem>
       </List>
     </Text>
-    <Text>Check the pricings!</Text>
+    <Text bold>Your time is money!</Text>
+    <Text style={{ marginTop: 50 }}>Check the pricings!</Text>
   </Slide>
 );

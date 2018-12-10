@@ -1,19 +1,40 @@
 import React from "react";
-import { Heading, Slide, Text, List, ListItem } from "spectacle";
+import { Heading, Slide, Text, List, ListItem, Notes } from "spectacle";
+
+function Plus() {
+  return <b style={{ color: "lime" }}>+</b>;
+}
+
+function Less() {
+  return <b style={{ color: "#ca0000" }}>-</b>;
+}
 
 export default (
-  <Slide transition={["fade"]} bgColor="tertiary">
-    <Heading size={1} textColor="primary" caps>
+  <Slide transition={["fade"]} bgColor="pink">
+    <Notes>We moved from Sketch to figma</Notes>
+    <Heading size={1} textColor="white" caps>
       Why Figma?
     </Heading>
-    <Text margin="10px 0 0" textColor="secondary" size={0.5}>
+    <Text margin="10px 0 0" textColor="black" size={0.5}>
       <List>
-        <ListItem>+ Components</ListItem>
-        <ListItem>+ Live collaboration</ListItem>
-        <ListItem>+ Live demo/share</ListItem>
-        <ListItem>+ Available on any (decent) browser</ListItem>
-        <ListItem>- Can be slow to load</ListItem>
-        <ListItem>- Lack of polish</ListItem>
+        <ListItem>
+          <Plus /> Components
+        </ListItem>
+        <ListItem>
+          <Plus /> Live collaboration
+        </ListItem>
+        <ListItem>
+          <Plus /> Live demo/share
+        </ListItem>
+        <ListItem>
+          <Plus /> Available on any (decent) browser
+        </ListItem>
+        <ListItem>
+          <Less /> Can be slow to load
+        </ListItem>
+        <ListItem>
+          <Less /> Lack of polish
+        </ListItem>
       </List>
     </Text>
   </Slide>

@@ -4,12 +4,12 @@ import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
 export default (
   <Slide
     transition={["fade"]}
-    bgColor="primary"
-    textColor="secondary"
-    progressColor="secondary"
-    controlColor="secondary"
+    bgColor="white"
+    textColor="black"
+    progressColor="black"
+    controlColor="black"
   >
-    <Heading size={6} textColor="tertiary" caps>
+    <Heading size={6} textColor="pink" caps>
       WHEN THINGS GO BAD
     </Heading>
     <Text>Mostly a communication, or a lack of communication issue</Text>

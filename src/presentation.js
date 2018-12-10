@@ -24,21 +24,22 @@ import sectionUX from "./slide/sectionUX";
 import uiTips from "./slide/uiTips";
 import sectionSoftSkills from "./slide/sectionSoftSkills";
 import figmaDemo from "./slide/figmaDemo";
-import doNotLoseTuch from "./slide/doNotLoseTuch";
+import doNotLoseTouch from "./slide/doNotLoseTouch";
 import whyMe from "./slide/whyMe";
 import noUseCase from "./slide/noUseCase";
 import mentorship from "./slide/mentorship";
 import yourTouch from "./slide/yourTouch";
+import andThen from "./slide/andThen";
 
 require("normalize.css");
 
 const theme = createTheme(
   {
-    primary: "white",
-    secondary: "#1F2022",
-    tertiary: "#ff00ac",
-    quartenary: "#00dade",
-    cinquo: "#ffe400"
+    white: "white",
+    black: "#1F2022",
+    pink: "#ff00ac",
+    blue: "#00dade",
+    yellow: "#ffe400"
   },
   {
     primary: "Montserrat",
@@ -60,7 +61,7 @@ export default class Presentation extends React.Component {
         {simpleCode}
         {useWhatYouKnow}
         {goodPractices}
-        {doNotLoseTuch}
+        {doNotLoseTouch}
         {useServices}
         {favoriteTech}
         {/* UI/UX */}
@@ -78,6 +79,7 @@ export default class Presentation extends React.Component {
         {goingFromCanToShould}
         {mentorship}
         {yourTouch}
+        {andThen}
         {Questions}
       </Deck>
     );

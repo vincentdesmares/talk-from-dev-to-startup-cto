@@ -4,25 +4,23 @@ import { Heading, Slide, Text, Notes } from "spectacle";
 export default (
   <Slide
     transition={["zoom"]}
-    bgColor="tertiary"
-    progressColor="secondary"
-    controlColor="secondary"
+    bgColor="white"
+    progressColor="black"
+    controlColor="black"
   >
     <Notes>
-      <h4>Slide notes</h4>
-      <p>test</p>
-      <ol>
-        <li>First note</li>
-        <li>Second note</li>
-      </ol>
+      <p>I can only talk about what I experienced</p>
+      <p>Each funding serie has different requirements for a CTO</p>
     </Notes>
-    <Heading size={1} caps lineHeight={1} textColor="primary">
+    <Heading size={1} caps lineHeight={1} textColor="pink">
       STARTUP CTO
     </Heading>
-    <Text textColor="secondary" fit>
+    <Text textColor="black" fit>
       For pre-seed/seed stages
     </Text>
-    <Text textColor="quartenary">More than a technical lead</Text>
-    <Text textColor="quartenary">!= Role for each serie A/B/C/D/E </Text>
+    <Text textColor="blue" style={{ marginTop: 50 }}>
+      More than a technical lead
+    </Text>
+    <Text textColor="blue">!= Role for each serie A/B/C/D/E </Text>
   </Slide>
 );
