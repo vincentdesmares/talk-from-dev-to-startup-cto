@@ -15,8 +15,12 @@ export default (
         Be careful with the pricing, some services can be nice, other can be a
         burden : ex Analytics dashboards (ModeAnalytics)
       </p>
+      <p>
+        Link: In addition to the services we use, I gathered for you some of my
+        favorite techs.
+      </p>
     </Notes>
-    <Heading size={1} caps lineHeight={1} textColor="black">
+    <Heading size={1} caps lineHeight={1} textColor="pink">
       USE SERVICES
     </Heading>
     <Text margin="10px 0 0" textColor="black" size={0.5}>

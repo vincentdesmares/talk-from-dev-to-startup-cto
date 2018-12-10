@@ -30,6 +30,7 @@ import noUseCase from "./slide/noUseCase";
 import mentorship from "./slide/mentorship";
 import yourTouch from "./slide/yourTouch";
 import andThen from "./slide/andThen";
+import whenThingsGoBad from "./slide/whenThingsGoBad";
 
 require("normalize.css");
 
@@ -80,6 +81,7 @@ export default class Presentation extends React.Component {
         {goingFromCanToShould}
         {mentorship}
         {yourTouch}
+        {whenThingsGoBad}
         {andThen}
         {Questions}
       </Deck>

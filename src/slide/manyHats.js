@@ -9,12 +9,13 @@ export default (
     controlColor="black"
   >
     <Notes>
-      <h4>Slide notes</h4>
-      <p>test</p>
-      <ol>
-        <li>First note</li>
-        <li>Second note</li>
-      </ol>
+      <p>Sum-up my experience</p>
+      <p>A few keys to go forward</p>
+      <p>
+        Link: We will start with the Tech as it's in my opinion the least
+        interessing thing of this presentation. I don't want you sleeping at the
+        end :)
+      </p>
     </Notes>
     <Heading size={1} caps lineHeight={1} textColor="black">
       ONE TITLE, MANY JOBS

@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "https://vincentdesmares.github.io/from-dev-to-startup-cto/static/js/runtime~main.7d821435.js"
   },
   {
-    "revision": "54472bb02da4cd61e426",
-    "url": "https://vincentdesmares.github.io/from-dev-to-startup-cto/static/js/main.54472bb0.chunk.js"
+    "revision": "8bab26bba46e1c04c434",
+    "url": "https://vincentdesmares.github.io/from-dev-to-startup-cto/static/js/main.8bab26bb.chunk.js"
   },
   {
-    "revision": "f7b5702ca4e0dfd85bca",
-    "url": "https://vincentdesmares.github.io/from-dev-to-startup-cto/static/js/1.f7b5702c.chunk.js"
+    "revision": "a6b6b970d67a94a0fbf4",
+    "url": "https://vincentdesmares.github.io/from-dev-to-startup-cto/static/js/1.a6b6b970.chunk.js"
   },
   {
-    "revision": "f7b5702ca4e0dfd85bca",
+    "revision": "a6b6b970d67a94a0fbf4",
     "url": "https://vincentdesmares.github.io/from-dev-to-startup-cto/static/css/1.1e79c60a.chunk.css"
   },
   {
-    "revision": "1253b6a168f65eace8d95c23f612c443",
+    "revision": "d4f1d105c5e42214978af9efbd4c0673",
     "url": "https://vincentdesmares.github.io/from-dev-to-startup-cto/index.html"
   }
 ];

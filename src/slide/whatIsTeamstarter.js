@@ -17,6 +17,10 @@ export default (
         Arcade box / Christmas decorations / Raclette party / Board games /
         Conferences
       </p>
+      <p>
+        Link: In the presentation I will talk about my journey developing as a
+        CTO. Before talking about what's a CTO, let focus on the context.
+      </p>
     </Notes>
     <Heading size={1} caps lineHeight={1} textColor="white">
       What's teamstarter?

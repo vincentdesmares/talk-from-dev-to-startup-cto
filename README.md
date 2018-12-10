@@ -4,10 +4,6 @@ A quick RX on my experience as Teamstarter's CTO.
 
 The slides available [online](https://vincentdesmares.github.io/from-dev-to-startup-cto/).
 
-## Slides list
-
-- TODO
-
 ## References
 
 - [Teamstarter](https://teamstarter.co)

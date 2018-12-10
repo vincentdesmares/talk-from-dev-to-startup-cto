@@ -19,6 +19,7 @@ export default (
           One of the first things I did when I took back the project were
           regressions :)
         </li>
+        <li>Link: Be careful to shortcuts! ref: Let's drop redux in...</li>
       </ol>
     </Notes>
     <Heading size={1} caps lineHeight={1} textColor="pink">

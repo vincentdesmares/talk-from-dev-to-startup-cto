@@ -17,6 +17,10 @@ export default (
         We took time to refactor what needed to be, now we ship quickly and when
         needed.
       </p>
+      <p>
+        Link: Simple code is great, but it's not enough. You much master what
+        you are using.
+      </p>
     </Notes>
     <Heading size={1} caps lineHeight={1} textColor="pink">
       KEEP THE CODE SIMPLE

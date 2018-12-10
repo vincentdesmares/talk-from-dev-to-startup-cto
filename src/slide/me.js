@@ -12,6 +12,7 @@ export default (
       <p>
         Matters: product studio (+100 produits) / startup studio (Teamstarter)
       </p>
+      <p>Link: what's teamstarter?</p>
     </Notes>
     <Heading size={1} caps lineHeight={1} textColor="black">
       I'm Vincent DESMARES

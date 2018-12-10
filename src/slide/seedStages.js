@@ -11,6 +11,7 @@ export default (
     <Notes>
       <p>I can only talk about what I experienced</p>
       <p>Each funding serie has different requirements for a CTO</p>
+      <p>Link: But what's the job?</p>
     </Notes>
     <Heading size={1} caps lineHeight={1} textColor="pink">
       STARTUP CTO

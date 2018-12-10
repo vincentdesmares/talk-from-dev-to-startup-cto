@@ -20,6 +20,10 @@ export default (
         responsibility
       </p>
       <p>If you don't know, then no one will.</p>
+      <p>
+        Link: It's important to be very cautious of how to write code. But
+        sometimes the best is to not write it at all
+      </p>
     </Notes>
     <Heading size={1} caps lineHeight={1} textColor="black">
       Own the code

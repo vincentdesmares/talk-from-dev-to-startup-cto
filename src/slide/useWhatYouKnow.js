@@ -16,6 +16,7 @@ export default (
       </p>
       <p>Use the tool you know and love.</p>
       <p>To stay productive and on schedule</p>
+      <p>Link: Simple, mastered and ... clean!</p>
     </Notes>
     <Heading size={1} caps lineHeight={1} textColor="white">
       USE TECH YOU KNOW

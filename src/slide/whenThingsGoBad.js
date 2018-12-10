@@ -9,23 +9,22 @@ export default (
     progressColor="black"
     controlColor="black"
   >
-    <Heading size={6} textColor="pink" caps>
+    <Heading size={6} textColor="pink" caps fit>
       WHEN THINGS GO BAD
     </Heading>
-    <Text>Mostly a communication, or a lack of communication issue</Text>
+    <Heading size={6} textColor="BLACK" caps fit>
+      IT's PROBABLY a COMMUNICATION issue
+    </Heading>
+    <Text bold textColor="blue">
+      You may have failed to:
+    </Text>
     <List>
-      <ListItem>Did you fail to communicate an issue soon enough?</ListItem>
+      <ListItem>communicate an issue soon enough?</ListItem>
+      <ListItem>appropriately communicate the risks upfront?</ListItem>
       <ListItem>
-        Did you fail to appropriately communicate the risks upfront?
-      </ListItem>
-      <ListItem>
-        Did you fail to appropriately communicate the risks upfront?
-      </ListItem>
-      <ListItem>
-        Did you fail to understand their real problem and instead were driven by
-        assumptions?
+        understand their real problem and instead were driven by assumptions?
       </ListItem>
     </List>
-    <Text>The sooner you Work on it, the better.</Text>
+    <Text bold>The sooner you Work on it, the better.</Text>
   </Slide>
 );
