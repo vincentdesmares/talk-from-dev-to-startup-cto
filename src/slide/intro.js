@@ -10,7 +10,7 @@ export default (
   >
     <Notes>
       <p>I'm happy to be there to share my experience</p>
-      <p>4 parts</p>
+      <p>4 parts, 3 Axis</p>
       <ol>
         <li>Me & the product</li>
         <li>on the Tech</li>
@@ -29,6 +29,7 @@ export default (
     <Text textColor="blue">from my work on Teamstarter</Text>
     <img
       src="/assets/images/logo-cut.svg"
+      alt="Teamstarter logo"
       style={{
         position: "fixed",
         top: -100,

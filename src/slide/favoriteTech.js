@@ -16,11 +16,24 @@ export default (
     </Heading>
     <Text margin="10px 0 0" textColor="black" size={0.5}>
       <List>
-        <ListItem>NODE + Gen. GRAPHQL = productivity</ListItem>
-        <ListItem>React - Redux - Tachyons</ListItem>
-        <ListItem>Components + Func. CSS = 💖</ListItem>
-        <ListItem>SQLite : no other dep. than node.js</ListItem>
-        <ListItem>PM2 smart monitoring</ListItem>
+        <ListItem>
+          <b>NODE</b> + Gen. <b>GRAPHQL</b> = productivity
+        </ListItem>
+        <ListItem>
+          <b>React - Redux - Tachyons</b>
+        </ListItem>
+        <ListItem>
+          Components + Func. CSS ={" "}
+          <span role="img" aria-label="heart">
+            💖
+          </span>
+        </ListItem>
+        <ListItem>
+          <b>SQLite</b> : no other dep. than node.js
+        </ListItem>
+        <ListItem>
+          <b>PM2</b> smart monitoring
+        </ListItem>
       </List>
     </Text>
   </Slide>

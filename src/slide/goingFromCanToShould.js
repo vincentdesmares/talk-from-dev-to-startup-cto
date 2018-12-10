@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Slide, Text, Notes } from "spectacle";
+import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
 
 export default (
   <Slide
@@ -31,17 +31,19 @@ export default (
       </p>
       <p>ex insights</p>
     </Notes>
-    <Heading size={1} caps lineHeight={1} textColor="white">
-      Going from “can” to “should”
+    <Heading size={1} caps lineHeight={1} textColor="white" fit>
+      Going from “can”
     </Heading>
-    <Text textColor="black" fit>
-      HAVE A VOICE, BUT ...
+    <Text fit bold>
+      to “should”
     </Text>
-    <Text textColor="white">Be an ally, not a door guard.</Text>
-    <Text textColor="white">Inspire, suggest, extend, educate.</Text>
-    <Text textColor="white">
-      You must weight Business and Technology equaly.
+    <Text margin="10px 0 0" textColor="black" size={0.5}>
+      <List>
+        <ListItem>Be an ally, not a door guard</ListItem>
+        <ListItem>Inspire, suggest, extend, educate</ListItem>
+        <ListItem>Weight Business and Tech equaly</ListItem>
+        <ListItem>Find the 80/20 -> Provide alternatives</ListItem>
+      </List>
     </Text>
-    <Text textColor="white">Find the 80/20 -> Provide options</Text>
   </Slide>
 );

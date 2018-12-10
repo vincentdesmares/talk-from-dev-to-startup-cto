@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
+import { Heading, Slide, Text, Notes } from "spectacle";
 
 export default (
   <Slide
@@ -19,7 +19,7 @@ export default (
     <Heading size={2} caps lineHeight={1} textColor="pink">
       Is there an use case for that?
     </Heading>
-    <Text>No?</Text>
+    <Text style={{ marginTop: 30 }}>No?</Text>
     <Text fit bold>
       DROP
     </Text>

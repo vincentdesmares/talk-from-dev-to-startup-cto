@@ -14,11 +14,14 @@ export default (
       </p>
     </Notes>
     <Heading size={1} caps lineHeight={1} textColor="black">
-      I'm Vincent
+      I'm Vincent DESMARES
     </Heading>
-    <Text textColor="pink" fit>
-      Working @ matters for 8 years!
+    <Text textColor="pink" fit style={{ marginTop: 50 }}>
+      Working @<b>Matters.tech</b> for 8 years! <br />
+      As Dev, lead dev and project manager.
     </Text>
-    <Text textColor="blue">CTO @ Teamstarter for 1 year.</Text>
+    <Text textColor="blue" style={{ marginTop: 50 }}>
+      CTO @ Teamstarter for 1 year.
+    </Text>
   </Slide>
 );

@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
+import { Heading, Slide, Text, List, ListItem } from "spectacle";
 
 export default (
   <Slide
@@ -8,14 +8,6 @@ export default (
     progressColor="black"
     controlColor="black"
   >
-    <Notes>
-      <h4>Slide notes</h4>
-      <p>test</p>
-      <ol>
-        <li>First note</li>
-        <li>Second note</li>
-      </ol>
-    </Notes>
     <Heading size={2} caps lineHeight={1} textColor="pink">
       LEARN TO WRITE SPECIFICATIONS
     </Heading>
@@ -31,7 +23,13 @@ export default (
     </Text>
     <Text textSize={25} italic>
       "perfection is attained not when there is nothing more to add, but when
-      there is nothing more to remove" <b>Antoine de Saint-exupery ✈️</b>
+      there is nothing more to remove"{" "}
+      <b>
+        Antoine de Saint-exupery{" "}
+        <span role="img" aria-label="plane">
+          ✈️
+        </span>
+      </b>
     </Text>
   </Slide>
 );

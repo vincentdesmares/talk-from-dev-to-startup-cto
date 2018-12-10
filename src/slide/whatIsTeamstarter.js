@@ -26,7 +26,10 @@ export default (
     </Text>
     <Text textColor="white">Your budget, your project, your culture.</Text>
     <Text textColor="white" bold style={{ marginTop: 40 }}>
-      And ... a quick demo 🧙
+      And ... a quick demo{" "}
+      <span role="img" aria-label="wizard">
+        🧙
+      </span>
     </Text>
   </Slide>
 );

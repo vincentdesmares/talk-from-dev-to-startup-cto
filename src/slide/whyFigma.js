@@ -12,9 +12,10 @@ function Less() {
 export default (
   <Slide transition={["fade"]} bgColor="pink">
     <Notes>We moved from Sketch to figma</Notes>
-    <Heading size={1} textColor="white" caps>
-      Why Figma?
+    <Heading size={1} textColor="white" caps fit>
+      What's Figma?
     </Heading>
+    <Text bold>It's like Sketch but collaborative and online.</Text>
     <Text margin="10px 0 0" textColor="black" size={0.5}>
       <List>
         <ListItem>
@@ -27,7 +28,10 @@ export default (
           <Plus /> Live demo/share
         </ListItem>
         <ListItem>
-          <Plus /> Available on any (decent) browser
+          <Plus /> As a website or can be installed
+        </ListItem>
+        <ListItem>
+          <Plus /> Can work offline when installed
         </ListItem>
         <ListItem>
           <Less /> Can be slow to load

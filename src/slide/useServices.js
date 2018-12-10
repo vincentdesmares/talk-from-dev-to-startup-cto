@@ -23,7 +23,12 @@ export default (
       <List>
         <ListItem>Auth0 -> Authentication</ListItem>
         <ListItem>AWS -> flexible infrastructure</ListItem>
-        <ListItem>Cloudinary -> Media Cdn 💖</ListItem>
+        <ListItem>
+          Cloudinary -> Media Cdn{" "}
+          <span role="img" aria-label="heart">
+            💖
+          </span>
+        </ListItem>
         <ListItem>Sentry -> Bug report</ListItem>
         <ListItem>Intercom -> User support</ListItem>
       </List>

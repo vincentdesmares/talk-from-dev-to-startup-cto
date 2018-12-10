@@ -39,7 +39,8 @@ const theme = createTheme(
     black: "#1F2022",
     pink: "#ff00ac",
     blue: "#00dade",
-    yellow: "#ffe400"
+    yellow: "#ffe400",
+    grey: "#888888"
   },
   {
     primary: "Montserrat",

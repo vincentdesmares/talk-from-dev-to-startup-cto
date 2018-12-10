@@ -1,8 +1,13 @@
 import React from "react";
-import { Heading, Slide, Text, Notes } from "spectacle";
+import { Heading, Slide, Text } from "spectacle";
 
 export default (
-  <Slide transition={["fade"]} bgColor="yellow">
+  <Slide
+    transition={["fade"]}
+    bgColor="yellow"
+    progressColor="black"
+    controlColor="black"
+  >
     <Heading size={6} textColor="pink" caps fit>
       DEMO TIME
     </Heading>

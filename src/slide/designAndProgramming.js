@@ -8,10 +8,13 @@ export default (
     progressColor="black"
     controlColor="black"
   >
-    <Heading size={3} textColor="black" caps>
-      Design & Programming in 2018
+    <Heading size={3} textColor="black" caps fit>
+      Design & Programming
     </Heading>
-    <Text margin="10px 0 0" textColor="pink" size={0.5}>
+    <Text bold fit textColor="pink">
+      in 2018
+    </Text>
+    <Text margin="10px 0 0" textColor="black" size={0.5}>
       <List>
         <ListItem>Iterate fast</ListItem>
         <ListItem>Do not repeat yourself</ListItem>

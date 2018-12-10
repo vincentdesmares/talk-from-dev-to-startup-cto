@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Slide, Text, Notes } from "spectacle";
+import { Heading, Slide } from "spectacle";
 
 export default (
   <Slide
@@ -8,15 +8,6 @@ export default (
     progressColor="black"
     controlColor="black"
   >
-    <Notes>
-      <h4>Slide notes</h4>
-      <p>3 parts</p>
-      <ol>
-        <li>Tech</li>
-        <li>product</li>
-        <li>UI/UX</li>
-      </ol>
-    </Notes>
     <Heading size={1} caps lineHeight={1} fit textColor="black">
       TECH
     </Heading>

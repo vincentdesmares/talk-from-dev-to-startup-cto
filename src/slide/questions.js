@@ -67,10 +67,6 @@ export default (
   >
     <style>{fireworksStyle}</style>
 
-    <div className="pyro">
-      <div className="before" />
-      <div className="after" />
-    </div>
     <Heading size={2} textColor="pink" caps>
       We're done!
     </Heading>
@@ -85,5 +81,18 @@ export default (
         https://github.com/vincentdesmares/from-dev-to-startup-cto
       </a>
     </Text>
+    <div
+      className="pyro"
+      style={{
+        zIndex: -1,
+        position: "absolute",
+        top: 0,
+        width: "100%",
+        height: "100%"
+      }}
+    >
+      <div className="before" />
+      <div className="after" />
+    </div>
   </Slide>
 );

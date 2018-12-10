@@ -1,8 +1,14 @@
 import React from "react";
-import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
+import { Heading, Slide, Notes, List, ListItem } from "spectacle";
 
 export default (
-  <Slide transition={["fade"]} bgColor="yellow" textColor="black">
+  <Slide
+    transition={["fade"]}
+    bgColor="white"
+    textColor="black"
+    progressColor="black"
+    controlColor="black"
+  >
     <Notes>
       <p>Those are advices to programmers who want to join the design side.</p>
       <p>They can help you but they will not replace a good tutor.</p>
@@ -15,7 +21,9 @@ export default (
       <ListItem>Get inspiration</ListItem>
       <ListItem>Do 3 simple versions</ListItem>
       <ListItem>Challenge with others, pick one, iterate</ListItem>
-      <ListItem>Doing UI requires a lof of exploration. Try try try.</ListItem>
+      <ListItem>
+        Requires <b>a lof of exploration</b>. Try try try.
+      </ListItem>
       <ListItem>Assign meaning to your colors and fonts</ListItem>
       <ListItem>Be consistent</ListItem>
     </List>
