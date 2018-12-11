@@ -1,8 +1,8 @@
 # My experience as a Startup CTO
 
-A quick RX on my experience as Teamstarter's CTO.
+A quick Postmortem on my experience as Teamstarter's CTO.
 
-The slides available [online](https://vincentdesmares.github.io/from-dev-to-startup-cto/).
+The slides are available [online](https://vincentdesmares.github.io/from-dev-to-startup-cto/).
 
 ## References
 
@@ -36,3 +36,7 @@ UX/UI inspirations:
 - Only colored backgrounds should be animated with a "zoom" transition.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+### Contact
+
+vincent.desmares@gmail.com

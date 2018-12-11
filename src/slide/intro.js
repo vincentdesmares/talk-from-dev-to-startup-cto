@@ -28,7 +28,7 @@ export default (
     <div style={{ height: 50 }}> </div>
     <Text textColor="blue">from my work on Teamstarter</Text>
     <img
-      src="/assets/images/logo-cut.svg"
+      src="assets/images/logo-cut.svg"
       alt="Teamstarter logo"
       style={{
         position: "fixed",

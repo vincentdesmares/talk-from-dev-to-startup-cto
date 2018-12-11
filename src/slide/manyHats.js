@@ -37,7 +37,7 @@ export default (
     </Text>
     <img
       alt="Many hats on a head"
-      src="/assets/images/hats.png"
+      src="assets/images/hats.png"
       style={{ position: "fixed", height: "100%", right: -200, top: 0 }}
     />
   </Slide>
