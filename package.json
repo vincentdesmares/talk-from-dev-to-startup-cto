@@ -1,6 +1,6 @@
 {
   "name": "talk-from-dev-to-startup-cto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "devDependencies": {
     "eslint-config-prettier": "^3.1.0",
