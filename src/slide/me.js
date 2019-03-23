@@ -1,9 +1,9 @@
-import React from "react";
-import { Heading, Slide, Text, Notes } from "spectacle";
+import React from 'react'
+import { Heading, Slide, Text, Notes } from 'spectacle'
 
 export default (
   <Slide
-    transition={["slide"]}
+    transition={['slide']}
     bgColor="white"
     progressColor="black"
     controlColor="black"
@@ -25,4 +25,4 @@ export default (
       CTO @ Teamstarter for 1 year.
     </Text>
   </Slide>
-);
+)

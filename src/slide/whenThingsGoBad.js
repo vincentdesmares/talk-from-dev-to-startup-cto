@@ -1,9 +1,9 @@
-import React from "react";
-import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
+import React from 'react'
+import { Heading, Slide, Text, List, ListItem } from 'spectacle'
 
 export default (
   <Slide
-    transition={["fade"]}
+    transition={['fade']}
     bgColor="white"
     textColor="black"
     progressColor="black"
@@ -27,4 +27,4 @@ export default (
     </List>
     <Text bold>The sooner you Work on it, the better.</Text>
   </Slide>
-);
+)

@@ -1,9 +1,9 @@
-import React from "react";
-import { Heading, Slide, Notes } from "spectacle";
+import React from 'react'
+import { Heading, Slide, Notes } from 'spectacle'
 
 export default (
   <Slide
-    transition={["zoom"]}
+    transition={['zoom']}
     bgColor="yellow"
     progressColor="black"
     controlColor="black"
@@ -16,4 +16,4 @@ export default (
       UX/UI
     </Heading>
   </Slide>
-);
+)

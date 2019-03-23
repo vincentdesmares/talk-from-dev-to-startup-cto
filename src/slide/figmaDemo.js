@@ -1,9 +1,9 @@
-import React from "react";
-import { Heading, Slide, Text, Notes } from "spectacle";
+import React from 'react'
+import { Heading, Slide, Text, Notes } from 'spectacle'
 
 export default (
   <Slide
-    transition={["fade"]}
+    transition={['fade']}
     bgColor="yellow"
     progressColor="black"
     controlColor="black"
@@ -16,4 +16,4 @@ export default (
       Let's make a simple form and discover component-based design.
     </Text>
   </Slide>
-);
+)

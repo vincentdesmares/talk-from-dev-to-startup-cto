@@ -1,9 +1,9 @@
-import React from "react";
-import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
+import React from 'react'
+import { Heading, Slide, Text, Notes, List, ListItem } from 'spectacle'
 
 export default (
   <Slide
-    transition={["zoom"]}
+    transition={['zoom']}
     bgColor="white"
     progressColor="black"
     controlColor="black"
@@ -27,4 +27,4 @@ export default (
     <Text textColor="blue" style={{ marginTop: 50 }} />
     <Text textColor="blue"> </Text>
   </Slide>
-);
+)

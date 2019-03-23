@@ -1,9 +1,9 @@
-import React from "react";
-import { Heading, Slide, Text, Notes } from "spectacle";
+import React from 'react'
+import { Heading, Slide, Text, Notes } from 'spectacle'
 
 export default (
   <Slide
-    transition={["slide"]}
+    transition={['slide']}
     bgColor="white"
     progressColor="black"
     controlColor="black"
@@ -31,14 +31,14 @@ export default (
     <Text
       textSize={10}
       textColor="grey"
-      style={{ position: "fixed", left: -100, bottom: 0 }}
+      style={{ position: 'fixed', left: -100, bottom: 0 }}
     >
       Art by deviantart.com/darklitria
     </Text>
     <img
       alt="Many hats on a head"
       src="assets/images/hats.png"
-      style={{ position: "fixed", height: "100%", right: -200, top: 0 }}
+      style={{ position: 'fixed', height: '100%', right: -200, top: 0 }}
     />
   </Slide>
-);
+)

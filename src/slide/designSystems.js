@@ -1,9 +1,9 @@
-import React from "react";
-import { Heading, Slide, Text } from "spectacle";
+import React from 'react'
+import { Heading, Slide, Text } from 'spectacle'
 
 export default (
   <Slide
-    transition={["zoom"]}
+    transition={['zoom']}
     bgColor="yellow"
     progressColor="black"
     controlColor="black"
@@ -19,4 +19,4 @@ export default (
       https://forumone.com/ideas/what-is-design-system
     </Text>
   </Slide>
-);
+)

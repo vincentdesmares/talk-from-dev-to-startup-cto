@@ -1,9 +1,9 @@
-import React from "react";
-import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
+import React from 'react'
+import { Heading, Slide, Text, Notes, List, ListItem } from 'spectacle'
 
 export default (
   <Slide
-    transition={["slide"]}
+    transition={['slide']}
     bgColor="white"
     progressColor="black"
     controlColor="black"
@@ -38,4 +38,4 @@ export default (
       It will allow you to move fast.
     </Text>
   </Slide>
-);
+)

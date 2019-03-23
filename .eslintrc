@@ -1,0 +1,30 @@
+{
+  "extends": ["standard", "prettier", "prettier/standard"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true,
+    "es6": true,
+    "jest": true
+  },
+  "plugins": ["standard", "react"],
+  // Required for using import outside of top-level
+  // See https://github.com/eslint/eslint/issues/7764
+  // and https://stackoverflow.com/questions/39158552/ignore-eslint-error-import-and-export-may-only-appear-at-the-top-level
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    // Tell ESlint to take in account the JSX for unused variable detection
+    "react/jsx-uses-vars": 2,
+    // Tell ESlint to not warn about React being unused
+    "react/jsx-uses-react": "error",
+    "semi": ["error", "never"]
+  }
+}

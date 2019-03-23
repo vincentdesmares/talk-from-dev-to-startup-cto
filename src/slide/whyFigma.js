@@ -1,16 +1,16 @@
-import React from "react";
-import { Heading, Slide, Text, List, ListItem, Notes } from "spectacle";
+import React from 'react'
+import { Heading, Slide, Text, List, ListItem, Notes } from 'spectacle'
 
 function Plus() {
-  return <b style={{ color: "lime" }}>+</b>;
+  return <b style={{ color: 'lime' }}>+</b>
 }
 
 function Less() {
-  return <b style={{ color: "#ca0000" }}>-</b>;
+  return <b style={{ color: '#ca0000' }}>-</b>
 }
 
 export default (
-  <Slide transition={["fade"]} bgColor="pink">
+  <Slide transition={['fade']} bgColor="pink">
     <Notes>We moved from Sketch to figma</Notes>
     <Heading size={1} textColor="white" caps fit>
       What's Figma?
@@ -42,4 +42,4 @@ export default (
       </List>
     </Text>
   </Slide>
-);
+)

@@ -1,5 +1,5 @@
-import React from "react";
-import { Heading, Slide, Text } from "spectacle";
+import React from 'react'
+import { Heading, Slide, Text } from 'spectacle'
 
 const fireworksStyle = `.pyro >.before,
 .pyro>.after {
@@ -56,11 +56,11 @@ const fireworksStyle = `.pyro >.before,
     margin-top: 30%;
     margin-left: 80%;
   }
-}`;
+}`
 
 export default (
   <Slide
-    transition={["fade"]}
+    transition={['fade']}
     bgColor="white"
     progressColor="black"
     controlColor="black"
@@ -85,14 +85,14 @@ export default (
       className="pyro"
       style={{
         zIndex: -1,
-        position: "absolute",
+        position: 'absolute',
         top: 0,
-        width: "100%",
-        height: "100%"
+        width: '100%',
+        height: '100%'
       }}
     >
       <div className="before" />
       <div className="after" />
     </div>
   </Slide>
-);
+)

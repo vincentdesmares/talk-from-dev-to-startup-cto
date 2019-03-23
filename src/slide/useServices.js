@@ -1,9 +1,9 @@
-import React from "react";
-import { Heading, Slide, Text, Notes, List, ListItem } from "spectacle";
+import React from 'react'
+import { Heading, Slide, Text, Notes, List, ListItem } from 'spectacle'
 
 export default (
   <Slide
-    transition={["slide"]}
+    transition={['slide']}
     bgColor="white"
     progressColor="black"
     controlColor="black"
@@ -28,7 +28,7 @@ export default (
         <ListItem>Auth0 -> Authentication</ListItem>
         <ListItem>AWS -> flexible infrastructure</ListItem>
         <ListItem>
-          Cloudinary -> Media Cdn{" "}
+          Cloudinary -> Media Cdn{' '}
           <span role="img" aria-label="heart">
             💖
           </span>
@@ -40,4 +40,4 @@ export default (
     <Text bold>Your time is money! Weight time/price.</Text>
     <Text style={{ marginTop: 50 }}>Check the pricings!</Text>
   </Slide>
-);
+)

@@ -1,9 +1,9 @@
-import React from "react";
-import { Heading, Slide, Text, Notes } from "spectacle";
+import React from 'react'
+import { Heading, Slide, Text, Notes } from 'spectacle'
 
 export default (
   <Slide
-    transition={["fade"]}
+    transition={['fade']}
     bgColor="white"
     progressColor="black"
     controlColor="black"
@@ -31,13 +31,13 @@ export default (
       src="assets/images/logo-cut.svg"
       alt="Teamstarter logo"
       style={{
-        position: "fixed",
+        position: 'fixed',
         top: -100,
         right: -100,
-        width: "50%",
-        zIndex: "-1",
-        opacity: "0.2"
+        width: '50%',
+        zIndex: '-1',
+        opacity: '0.2'
       }}
     />
   </Slide>
-);
+)
