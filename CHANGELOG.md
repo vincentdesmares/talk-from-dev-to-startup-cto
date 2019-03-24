@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [1.1.0](https://github.com/vincentdesmares/talk-from-dev-to-startup-cto/compare/v1.0.1...v1.1.0) (2019-03-24)
+
+
+### Features
+
+* Remove a lot of slides about design to make the talk shorter. ([eb5abdf](https://github.com/vincentdesmares/talk-from-dev-to-startup-cto/commit/eb5abdf))
+
+
+
 ## 1.0.1 (2019-03-23)
 
 
