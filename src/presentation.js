@@ -15,7 +15,6 @@ import simpleCode from './slide/simpleCode'
 import useWhatYouKnow from './slide/useWhatYouKnow'
 import goodPractices from './slide/goodPractices'
 import useServices from './slide/useServices'
-import favoriteTech from './slide/favoriteTech'
 import goingFromCanToShould from './slide/goingFromCanToShould'
 import specifications from './slide/specifications'
 import sectionUX from './slide/sectionUX'
@@ -61,7 +60,6 @@ export default class Presentation extends React.Component {
         {goodPractices}
         {doNotLoseTouch}
         {useServices}
-        {favoriteTech}
         {/* UI/UX */}
         {sectionUX}
         {specifications}

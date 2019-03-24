@@ -25,6 +25,16 @@ export default (
         sometimes the best is to not write it at all
       </p>
     </Notes>
+    <img
+      className="absolute z-0"
+      alt="warning"
+      style={{
+        width: '18%',
+        right: '5%',
+        bottom: '5%'
+      }}
+      src="assets/images/teach.svg"
+    />
     <Heading size={1} caps lineHeight={1} textColor="black">
       Own the code
     </Heading>
@@ -33,8 +43,8 @@ export default (
         <ListItem>Magic code is impossible to debug</ListItem>
         <ListItem>You are the only reference</ListItem>
         <ListItem>You will not be able to breakdown work</ListItem>
-        <ListItem>Be able to answer anything</ListItem>
-        <ListItem>Or lose confidence of everyone</ListItem>
+        <ListItem>You should be able to answer anything...</ListItem>
+        <ListItem>...or lose everyone's confidence</ListItem>
       </List>
     </Text>
   </Slide>

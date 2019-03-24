@@ -15,6 +15,16 @@ export default (
       <p>incorpore it to my ways of doing things</p>
       <p>can be painting, writing, sport, music…</p>
     </Notes>
+    <img
+      className="absolute z-0"
+      alt="warning"
+      style={{
+        height: '30%',
+        right: '5%',
+        bottom: '5%'
+      }}
+      src="assets/images/art.svg"
+    />
     <Heading size={6} textColor="pink" caps fit>
       Find what drives you
     </Heading>

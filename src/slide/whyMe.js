@@ -23,8 +23,9 @@ export default (
       BECAUSE YOU CAN MAKE SURE THAT BOTH THE TECH AND THE PRODUCT SPECS SHARE
       THE SAME TERMS.
     </Text>
-    <Text style={{ marginTop: 20 }}>
-      You will be the most impacted by the communcation problems around it.
+    <Text style={{ marginTop: 20 }} textColor="pink">
+      Because YOU will be the most impacted by the communcation problems around
+      it.
     </Text>
   </Slide>
 )

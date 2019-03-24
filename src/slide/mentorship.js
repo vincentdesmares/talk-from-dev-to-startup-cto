@@ -20,6 +20,16 @@ export default (
         starting the grab things you master
       </p>
     </Notes>
+    <img
+      className="absolute z-0"
+      alt="warning"
+      style={{
+        height: '25%',
+        right: '5%',
+        bottom: '5%'
+      }}
+      src="assets/images/sad.svg"
+    />
     <Heading size={6} textColor="pink" caps fit>
       I did not know that
     </Heading>

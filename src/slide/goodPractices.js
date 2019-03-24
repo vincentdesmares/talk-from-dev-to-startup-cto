@@ -4,7 +4,7 @@ import { Heading, Slide, Text, Notes, List, ListItem } from 'spectacle'
 export default (
   <Slide
     transition={['slide']}
-    bgColor="white"
+    bgColor="blue"
     progressColor="black"
     controlColor="black"
   >
@@ -22,8 +22,11 @@ export default (
         <li>Link: Be careful to shortcuts! ref: Let's drop redux in...</li>
       </ol>
     </Notes>
-    <Heading size={1} caps lineHeight={1} textColor="pink">
+    <Heading size={1} caps lineHeight={1} textColor="white" fit>
       Put in place good practices
+    </Heading>
+    <Heading size={1} caps lineHeight={1} textColor="pink" fit>
+      The earlier the better
     </Heading>
     <Text margin="10px 0 0" textColor="black" size={0.5}>
       <List>
@@ -35,7 +38,7 @@ export default (
       </List>
     </Text>
     <Text bold fit>
-      It will allow you to move fast.
+      It will allow you to move fast
     </Text>
   </Slide>
 )

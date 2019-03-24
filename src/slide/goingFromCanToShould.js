@@ -31,6 +31,16 @@ export default (
       </p>
       <p>ex insights</p>
     </Notes>
+    <img
+      className="absolute z-0"
+      alt="warning"
+      style={{
+        height: '30%',
+        right: '5%',
+        bottom: '5%'
+      }}
+      src="assets/images/hero.svg"
+    />
     <Heading size={1} caps lineHeight={1} textColor="white" fit>
       Going from “can”
     </Heading>
@@ -41,6 +51,7 @@ export default (
       <List>
         <ListItem>Weight Business and Tech equaly</ListItem>
         <ListItem>Be an ally, not a door guard</ListItem>
+        <ListItem>Don't try to be a hero</ListItem>
         <ListItem>Inspire, suggest, extend, educate</ListItem>
         <ListItem>Find the 80/20 -> Provide alternatives</ListItem>
       </List>

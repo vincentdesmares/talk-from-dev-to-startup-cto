@@ -8,6 +8,16 @@ export default (
     progressColor="black"
     controlColor="black"
   >
+    <img
+      className="absolute z-0"
+      alt="warning"
+      style={{
+        height: '20%',
+        right: '10%',
+        top: '45%'
+      }}
+      src="assets/images/notes.svg"
+    />
     <Heading size={2} caps lineHeight={1} textColor="pink">
       LEARN TO WRITE SPECIFICATIONS
     </Heading>

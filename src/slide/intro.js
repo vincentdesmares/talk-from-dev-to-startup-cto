@@ -18,7 +18,24 @@ export default (
         <li>the Soft skills</li>
       </ol>
     </Notes>
-    <Heading size={1} caps lineHeight={1} textColor="black">
+    <img
+      src="assets/images/logo-cut.svg"
+      alt="Teamstarter logo"
+      className="fixed z-0"
+      style={{
+        top: 100,
+        right: 100,
+        width: '30%',
+        opacity: '0.2'
+      }}
+    />
+    <Heading
+      size={1}
+      caps
+      lineHeight={1}
+      textColor="black"
+      className="relative z-1"
+    >
       FROM DEV TO STARTUP CTO
     </Heading>
     <div style={{ height: 50 }}> </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Heading, Slide, Text, Notes } from 'spectacle'
+import Face from '../face'
 
 export default (
   <Slide
@@ -14,6 +15,14 @@ export default (
       </p>
       <p>Link: what's teamstarter?</p>
     </Notes>
+    <Face
+      className="fixed"
+      style={{
+        bottom: '-45%',
+        right: '-15%',
+        width: '45%'
+      }}
+    />
     <Heading size={1} caps lineHeight={1} textColor="black">
       I'm Vincent DESMARES
     </Heading>

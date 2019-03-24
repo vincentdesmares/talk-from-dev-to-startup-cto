@@ -22,10 +22,14 @@ export default (
       USE TECH YOU KNOW
     </Heading>
     <Text textColor="black" bold style={{ marginTop: 50 }}>
-      Be tech-pragmatic.
+      Be tech-pragmatic. With a touch of explorations!
     </Text>
-    <Text textColor="white" style={{ marginTop: 50 }}>
-      With a touch of explorations!
+    <Text style={{ marginTop: 50 }}>
+      'Great developers — not programming languages — build great
+      products.'&nbsp;
+      <italic>
+        <small>Kevin Dewalt</small>
+      </italic>
     </Text>
   </Slide>
 )

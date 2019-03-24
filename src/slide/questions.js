@@ -66,7 +66,6 @@ export default (
     controlColor="black"
   >
     <style>{fireworksStyle}</style>
-
     <Heading size={2} textColor="pink" caps>
       We're done!
     </Heading>
@@ -76,15 +75,15 @@ export default (
     <Text textSize={30} style={{ marginTop: 50 }}>
       <a
         className="dib"
-        href="https://github.com/vincentdesmares/from-dev-to-startup-cto"
+        href="https://github.com/vincentdesmares/talk-from-dev-to-startup-cto"
       >
-        https://github.com/vincentdesmares/from-dev-to-startup-cto
+        https://github.com/vincentdesmares/talk-from-dev-to-startup-cto
       </a>
     </Text>
     <div
       className="pyro"
       style={{
-        zIndex: -1,
+        zIndex: 2,
         position: 'absolute',
         top: 0,
         width: '100%',

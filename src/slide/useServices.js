@@ -20,6 +20,16 @@ export default (
         favorite techs.
       </p>
     </Notes>
+    <img
+      className="absolute z-0"
+      alt="warning"
+      style={{
+        width: '25%',
+        right: 100,
+        bottom: 60
+      }}
+      src="assets/images/blocks.svg"
+    />
     <Heading size={1} caps lineHeight={1} textColor="pink">
       USE SaaS
     </Heading>
@@ -37,7 +47,7 @@ export default (
         <ListItem>Intercom -> User support</ListItem>
       </List>
     </Text>
-    <Text bold>Your time is money! Weight time/price.</Text>
-    <Text style={{ marginTop: 50 }}>Check the pricings!</Text>
+    <Text bold>Weight time/price.</Text>
+    <Text style={{ marginTop: 50 }}>Your time is money! </Text>
   </Slide>
 )

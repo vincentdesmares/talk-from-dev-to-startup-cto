@@ -11,6 +11,26 @@ export default (
     <Heading size={3} textColor="white" caps fit>
       Learning Design
     </Heading>
+    <img
+      className="absolute z-0"
+      alt="warning"
+      style={{
+        width: '20%',
+        right: 100,
+        bottom: 60
+      }}
+      src="assets/images/design.svg"
+    />
+    <img
+      className="absolute z-0"
+      alt="warning"
+      style={{
+        width: '15%',
+        left: '5%',
+        bottom: '5%'
+      }}
+      src="assets/images/wireframe.svg"
+    />
     <Text bold fit textColor="pink">
       Will give you a huge advantage
     </Text>

@@ -3,8 +3,8 @@ import { Heading, Slide, Text, Notes, List, ListItem } from 'spectacle'
 
 export default (
   <Slide
-    transition={['zoom']}
-    bgColor="white"
+    transition={['slide']}
+    bgColor="blue"
     progressColor="black"
     controlColor="black"
   >
@@ -14,7 +14,7 @@ export default (
       <p>Each funding serie has different requirements for a CTO</p>
       <p>Link: But what's the job?</p>
     </Notes>
-    <Heading size={1} caps lineHeight={1} textColor="pink">
+    <Heading size={1} caps lineHeight={1} textColor="pink" fit>
       STARTUP CTO
     </Heading>
     <Text textColor="black" fit>
