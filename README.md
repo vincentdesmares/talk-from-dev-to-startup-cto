@@ -2,7 +2,7 @@
 
 A quick Postmortem on my experience as Teamstarter's CTO.
 
-The slides are available [online](https://vincentdesmares.github.io/from-dev-to-startup-cto/).
+The slides are available [online](https://vincentdesmares.github.io/talk-from-dev-to-startup-cto/).
 
 ## References
 
@@ -37,6 +37,24 @@ UX/UI inspirations:
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+## Controls
+
+| Key Combination | Function                       |
+| --------------- | ------------------------------ |
+| Right Arrow     | Next Slide                     |
+| Left Arrow      | Previous Slide                 |
+| Space           | Next Slide                     |
+| Shift+Space     | Previous Slide                 |
+| Alt/Option + O  | Toggle Overview Mode           |
+| Alt/Option + P  | Toggle Presenter Mode          |
+| Alt/Option + T  | Toggle Timer in Presenter Mode |
+| Alt/Option + A  | Toggle autoplay (if enabled)   |
+| Alt/Option + F  | Toggle Fullscreen Mode         |
+
 ### Contact
 
 vincent.desmares@gmail.com
+
+### Thanks
+
+Illustrations from the amazing site [undraw.co](https://undraw.co/illustrations), by [@NinaLimpi](https://twitter.com/NinaLimpi).
