@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://vincentdesmares.github.io/talk-from-dev-to-startup-cto/precache-manifest.ab60f65f4896e0bd15c2d70232283717.js"
+  "https://vincentdesmares.github.io/talk-from-dev-to-startup-cto/precache-manifest.2751b7b1b7242586ad617e23ed215c1e.js"
 );
 
 workbox.clientsClaim();
