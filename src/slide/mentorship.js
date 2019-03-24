@@ -26,9 +26,9 @@ export default (
     <List>
       <ListItem>Impostor syndrome</ListItem>
       <ListItem>Just "me" wasn't enough</ListItem>
-      <ListItem>Get Mentorship</ListItem>
+      <ListItem>Get Mentorship (ex: codingcoach.io) </ListItem>
       <ListItem>Talk to friends</ListItem>
-      <ListItem>Go to meetups</ListItem>
+      <ListItem>Go to meetups or join clubs (ex: City-o)</ListItem>
       <ListItem>Follow tech influencers</ListItem>
     </List>
   </Slide>

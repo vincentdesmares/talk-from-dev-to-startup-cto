@@ -4,23 +4,22 @@ import { Heading, Slide, Text, List, ListItem } from 'spectacle'
 export default (
   <Slide
     transition={['slide']}
-    bgColor="white"
+    bgColor="blue"
     progressColor="black"
     controlColor="black"
   >
-    <Heading size={3} textColor="black" caps fit>
-      Design & Programming
+    <Heading size={3} textColor="white" caps fit>
+      Learning Design
     </Heading>
     <Text bold fit textColor="pink">
-      in 2018
+      Will give you a huge advantage
     </Text>
     <Text margin="10px 0 0" textColor="black" size={0.5}>
       <List>
-        <ListItem>Iterate fast</ListItem>
-        <ListItem>Do not repeat yourself</ListItem>
-        <ListItem>Trends are passing fast</ListItem>
-        <ListItem>You need to have skills in both</ListItem>
-        <ListItem>Teams change fast</ListItem>
+        <ListItem>Design ~= programming</ListItem>
+        <ListItem>Design Systems & tools like Figma</ListItem>
+        <ListItem>At least learn to do wireframes</ListItem>
+        <ListItem>I can give another talk about that :)</ListItem>
       </List>
     </Text>
   </Slide>

@@ -5,8 +5,6 @@ import createTheme from 'spectacle/lib/themes/default'
 import Intro from './slide/intro'
 import 'tachyons/css/tachyons.min.css'
 import DesignAndProgramming from './slide/designAndProgramming'
-import DesignSystems from './slide/designSystems'
-import WhyFigma from './slide/whyFigma'
 import Questions from './slide/questions'
 import Me from './slide/me'
 import WhatIsTeamstarter from './slide/whatIsTeamstarter'
@@ -21,9 +19,7 @@ import favoriteTech from './slide/favoriteTech'
 import goingFromCanToShould from './slide/goingFromCanToShould'
 import specifications from './slide/specifications'
 import sectionUX from './slide/sectionUX'
-import uiTips from './slide/uiTips'
 import sectionSoftSkills from './slide/sectionSoftSkills'
-import figmaDemo from './slide/figmaDemo'
 import doNotLoseTouch from './slide/doNotLoseTouch'
 import whyMe from './slide/whyMe'
 import noUseCase from './slide/noUseCase'
@@ -72,10 +68,6 @@ export default class Presentation extends React.Component {
         {whyMe}
         {noUseCase}
         {DesignAndProgramming}
-        {DesignSystems}
-        {WhyFigma}
-        {figmaDemo}
-        {uiTips}
         {/* Soft skills */}
         {sectionSoftSkills}
         {goingFromCanToShould}

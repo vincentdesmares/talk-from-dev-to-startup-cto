@@ -15,13 +15,15 @@ export default (
     <Heading size={6} textColor="BLACK" caps fit>
       IT's PROBABLY a COMMUNICATION issue
     </Heading>
-    <Text bold textColor="blue">
+    <Text bold textColor="blue" fit>
       You may have failed to:
     </Text>
     <List>
-      <ListItem>communicate an issue soon enough?</ListItem>
-      <ListItem>appropriately communicate the risks upfront?</ListItem>
-      <ListItem>
+      <ListItem textSize={25}>communicate an issue soon enough?</ListItem>
+      <ListItem textSize={25}>
+        appropriately communicate the risks upfront?
+      </ListItem>
+      <ListItem textSize={25}>
         understand their real problem and instead were driven by assumptions?
       </ListItem>
     </List>

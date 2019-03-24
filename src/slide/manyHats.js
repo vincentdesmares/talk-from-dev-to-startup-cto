@@ -17,8 +17,13 @@ export default (
         end :)
       </p>
     </Notes>
+    <img
+      alt="Many hats on a head"
+      src="assets/images/hats.png"
+      style={{ position: 'fixed', height: '100%', right: 100, top: 40 }}
+    />
     <Heading size={1} caps lineHeight={1} textColor="black">
-      ONE TITLE, MANY JOBS
+      ONE TITLE, MANY HATS
     </Heading>
     <Text textColor="pink" style={{ marginTop: 30 }}>
       CODING, INFRASTRUCTURE MAINTENANCE, UI, UX, SPECIFICATIONS, TRANSLATIONS,
@@ -35,10 +40,5 @@ export default (
     >
       Art by deviantart.com/darklitria
     </Text>
-    <img
-      alt="Many hats on a head"
-      src="assets/images/hats.png"
-      style={{ position: 'fixed', height: '100%', right: -200, top: 0 }}
-    />
   </Slide>
 )
