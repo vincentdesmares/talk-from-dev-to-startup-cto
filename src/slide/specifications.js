@@ -31,8 +31,8 @@ export default (
       </List>
     </Text>
     <Text textSize={25} italic>
-      "perfection is attained not when there is nothing more to add, but when
-      there is nothing more to remove."{' '}
+      AGAIN: "perfection is attained not when there is nothing more to add, but
+      when there is nothing more to remove."{' '}
       <b>
         Antoine de Saint-exupery{' '}
         <span role="img" aria-label="plane">

@@ -26,6 +26,7 @@ import mentorship from './slide/mentorship'
 import yourTouch from './slide/yourTouch'
 import andThen from './slide/andThen'
 import whenThingsGoBad from './slide/whenThingsGoBad'
+import ctoVsFounder from './slide/ctoVsFounder'
 
 require('normalize.css')
 
@@ -72,6 +73,7 @@ export default class Presentation extends React.Component {
         {mentorship}
         {yourTouch}
         {whenThingsGoBad}
+        {ctoVsFounder}
         {andThen}
         {Questions}
       </Deck>

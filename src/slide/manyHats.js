@@ -27,8 +27,9 @@ export default (
     </Heading>
     <Text textColor="pink" style={{ marginTop: 30 }}>
       CODING, INFRASTRUCTURE MAINTENANCE, UI, UX, SPECIFICATIONS, TRANSLATIONS,
-      SOCIAL NETWORK MANAGEMENT, BILLING, PROJECT MANAGEMENT, HIRING,
-      <small>COMPETITIVE INTELLIGENCE, MARKET RESEARCH, SALES...</small>
+      SOCIAL NETWORK MANAGEMENT, BILLING, KPIS TRACKING, PROJECT MANAGEMENT,
+      <br />
+      <small>HIRING,COMPETITIVE INTELLIGENCE, MARKET RESEARCH, SALES...</small>
     </Text>
     <Text textColor="blue" style={{ marginTop: 30 }}>
       That's a lot of hat!

@@ -34,7 +34,8 @@ export default (
         <ListItem>CI</ListItem>
         <ListItem>Comments</ListItem>
         <ListItem>Will be harder later</ListItem>
-        <ListItem>Don't capitalize on the code</ListItem>
+        <ListItem>Take time to think how to code less</ListItem>
+        <ListItem>Technical dept can cost your job</ListItem>
       </List>
     </Text>
     <Text bold fit>

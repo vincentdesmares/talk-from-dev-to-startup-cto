@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://vincentdesmares.github.io/talk-from-dev-to-startup-cto/precache-manifest.1303778deb6b26fa0117fc0f4c3b84a1.js"
+  "https://vincentdesmares.github.io/talk-from-dev-to-startup-cto/precache-manifest.b9d0a80d4e84d91fbc3ffdce390fc6d5.js"
 );
 
 workbox.clientsClaim();
@@ -30,5 +30,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute("https://vincentdesmares.github.io/talk-from-dev-to-startup-cto/index.html", {
   
-  blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

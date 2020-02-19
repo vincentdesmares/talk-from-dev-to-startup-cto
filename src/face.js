@@ -20,6 +20,7 @@ export default function Face({ className, style }) {
       .face :nth-child(${i}) {
          position: relative;
          animation: transform${i} 800ms ease-out;
+         transform-origin: center center;
       }
       @keyframes transform${i} {
         0% {
@@ -27,12 +28,12 @@ export default function Face({ className, style }) {
             400 *
             (i % 2 === 0 ? 1 : -1)}px) translateY(${random(i) *
               400 *
-              (i % 3 === 0 ? 1 : -1)}px) rotateY(${random(i) *
+              (i % 3 === 0 ? 1 : -1)}px) rotateX(${random(i) *
               200 *
               (i % 3 === 0 ? 1 : -1)}deg) scale(${random(i)});
         }
         100% {
-          transform: translateX(0px) translateY(0px) rotateY(0deg) scale(1);
+          transform: translateX(0px) translateY(0px) rotateX(0deg) scale(1);
         }
       }`
           )}
